@@ -53,10 +53,10 @@ let countdown;
 
 
  // Event Listener to the form
-document.getElementById('custom').addEventListener('submit', startCountdown);
+ document.getElementById('custom').addEventListener('submit', startCountdown);
 
-// Countdown Function for the form
-function startCountdown(e) {
+ // Countdown Function for the form
+ function startCountdown(e) {
   e.preventDefault();
 
   // Get minutes from form
